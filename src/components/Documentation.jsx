@@ -4,7 +4,7 @@ export function Documentation({ handdleBackToCard, responseAI }) {
       <div className="flex flex-col	gap-4 py-10 w-2/3">
         <a
           onClick={handdleBackToCard}
-          className="text-amber-400 cursor-pointer hover:text-amber-200"
+          className="text-lime-300 cursor-pointer hover:text-amber-200"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ export function Documentation({ handdleBackToCard, responseAI }) {
         </a>
   
         <div
-          className="bg-gray-800 rounded-lg shadow-lg text-lg text-white whitespace-pre-line px-10"
+          className="bg-stone-800 rounded-lg shadow-lg text-lg text-white whitespace-pre-line px-10"
           dangerouslySetInnerHTML={{ __html: responseAI }}
         />
       </div>

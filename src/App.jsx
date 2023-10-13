@@ -25,14 +25,14 @@ function App() {
 
   return (
   <section className='grid place-content-center w-full h-full'>
-    <h1 className='text-amber-400 text-5xl text-center font-bold grid grid-cols-1 py-10'>
+    <h1 className='text-lime-300 text-5xl text-center font-bold grid grid-cols-1 py-10'>
       { language }
     </h1>
 
     {theme ? (
       <Documentation handdleBacktoCard={handdleBacktoCard} responseAI={theme}/>
     ) : (
-      <div className='grid grid-cols-4 gap-10 px-32'>
+      <div className='grid grid-cols-4 gap-8 px-32'>
         {themes.map((theme, idx) => (
           <Card key={idx} title={theme.name} onClick={() => handleClickTheme(theme.message)}/>
           ))}

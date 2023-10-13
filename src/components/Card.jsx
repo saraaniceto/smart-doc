@@ -6,7 +6,7 @@ export function Card({ title, onClick }){
     }
 
     return (
-        <div className="p-4 w-auto h-32 flex justify-center items-center text-center border-2 border-amber-400 cursor-pointer font-bold hover:bg-amber-400 hover:text-white rounded-lg shadow-lg duration-700 text-amber-400"
+        <div className="p-4 w-auto h-32 flex justify-center items-center text-center border-2 border-lime-300 cursor-pointer font-bold hover:bg-lime-300 hover:text-stone-900 rounded-3xl shadow-lg duration-700 text-lime-300"
         onClick={handleClick}>
             <h2 className="card-title">{title}</h2>
         </div>
