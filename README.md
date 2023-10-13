@@ -1,5 +1,5 @@
 # SmartDoc
-👇 [English Below](https://github.com/saraaniceto/smart-doc/edit/main/README.md#smartdoc)
+👇 [English Below](https://github.com/saraaniceto/smart-doc/blob/main/README.md#english)
 
 
 SmartDoc é uma aplicação web projetada para servir como um roteiro, ajudando você a navegar pelos assuntos que você precisa dominar para avançar em sua escolha de tecnologia e carreira. A aplicação utiliza a API do ChatGPT 3.5 para fornecer as informações mais atualizadas sobre várias tecnologias, frameworks, bibliotecas e conceitos.
